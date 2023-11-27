@@ -12,7 +12,7 @@ body { background-color: #36393f;
    
    
    header {
-       background: #5865f2;
+       background: #5865f2c9;
        color: #fff;
        padding: 1rem 0;
        text-align: center;
@@ -64,7 +64,7 @@ body { background-color: #36393f;
    footer {
     text-align: center;
     padding: 20px;
-    background: #5865f2;
+    background: #5865f2c9;
     color: #ffff;
     border-radius: 5px 5px 15px 15px;
    }
@@ -103,7 +103,7 @@ display: inline-grid;
     }
   .button{
     text-align: center;
-    background-color: #5865f2;
+    background-color: #5865f28c;
     padding: 15PX , 20PX;
     border-radius: 15PX;
     font-size: 45PX;
