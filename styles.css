@@ -12,7 +12,7 @@ body { background-color: #36393f;
    
    
    header {
-       background: #5865f2c9;
+       background: #5865f2ab;
        color: #fff;
        padding: 1rem 0;
        text-align: center;
@@ -58,13 +58,13 @@ body { background-color: #36393f;
    }
    
    
-   .overlay{ background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.9));
+   .overlay{ background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.8));
     border-radius: 15px;
 }
    footer {
     text-align: center;
     padding: 20px;
-    background: #5865f2c9;
+    background: #5865f2ab;
     color: #ffff;
     border-radius: 5px 5px 15px 15px;
    }
