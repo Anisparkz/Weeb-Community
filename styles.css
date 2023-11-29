@@ -115,7 +115,7 @@ display: inline-grid;
     color: #ccc;}
 
 
-    @media only screen and (max-width: 550px){
+    @media only screen and (max-width: 650px){
     .grid-container{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
