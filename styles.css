@@ -127,16 +127,15 @@ display: inline-grid;
         grid-template-areas: "a"
         "b";
         }
- .nav ul li{ display: inline;
-   margin: 5px;}
+ nav ul li{ display: inline;
+   margin: 5px;
+}
   h2{font-size: 36px;
    text-align: center;}
-
+background-attachment: fixed;
 }
 .promo{
 text-align: center;
-
-
 }
 p{ text-align: center;}
         
