@@ -7,37 +7,37 @@ body { background-color: #36393f;
      background-repeat: no-repeat;
      background-position: center;
      overflow-x: hidden; 
-     
+
    } 
-   
-   
+
+
    header {
-       background: #5865f2ab;
+       background: #5865f2;
        color: #fff;
        padding: 1rem 0;
        text-align: center;
        border-radius: 15px 15px 5px 5px;
    }
-   
+
    nav ul {
        list-style: none;
        padding: 0;
    }
-   
+
    nav ul li {
        display: inline;
        margin: 20px;
    }
-   
+
    nav ul li a {
        color: #fff;
        text-decoration: none;
    }
-   
+
    nav ul li a:hover {
        color: #ccc;
    }
-   
+
    section {
        padding: 20px;
        margin: 20px ;
@@ -47,32 +47,31 @@ body { background-color: #36393f;
          font-size: 48px;
        }
          h2{
-       
+
             font-size: 36px;
-            text-align: center;
    }
    .text1{
     text-align: center;
     font-size: 20px;
 
    }
-   
-   
+
+
    .overlay{ background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.8));
     border-radius: 15px;
 }
    footer {
     text-align: center;
     padding: 20px;
-    background: #5865f2ab;
+    background: #5865f2;
     color: #ffff;
     border-radius: 5px 5px 15px 15px;
    }
    .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-template-rows: 600px ;
-    
+    grid-template-rows: 700px ;
+
     grid-template-areas:
     'a a b'
     ;
@@ -89,21 +88,20 @@ display: inline-grid;
 
     }
 
-   
+
     .c{
         padding: 20px;
         text-align: center;
-     
     }
 
     a, a:link, a:visited {
         color: #FFFAFA;
         text-decoration: none;
-       
+
     }
   .button{
     text-align: center;
-    background-color: #5865f28c;
+    background-color: #5865f2;
     padding: 15PX , 20PX;
     border-radius: 15PX;
     font-size: 45PX;
@@ -115,7 +113,7 @@ display: inline-grid;
     color: #ccc;}
 
 
-    @media only screen and (max-width: 650px){
+    @media only screen and (max-width: 600px){
     .grid-container{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -127,15 +125,27 @@ display: inline-grid;
         grid-template-areas: "a"
         "b";
         }
- nav ul li{ display: inline;
-   margin: 5px;
+    nav ul li {
+       display: inline;
+       margin: 5px;
 }
   h2{font-size: 36px;
    text-align: center;}
-background-attachment: fixed;
-}}
+body { background-color: #36393f;
+    color: #ffff;
+    background-image: url("bg.gif");
+    font-family: 'Arial', sans-serif; 
+     line-height: 1.6;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     overflow-x: hidden; 
+     background-attachment: fixed;
+
+}
 .promo{
 text-align: center;
+
+
 }
 p{ text-align: center;}
-        
